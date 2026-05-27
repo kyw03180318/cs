@@ -1,3 +1,4 @@
+
 import tkinter as tk
 
 def click_name_button():
@@ -16,3 +17,7 @@ lbl_name.pack()
 en_name.pack()
 btn_name.pack()
 window.mainloop()
+=======
+name = input("이름입력:")
+print(f"제 이름은 {name}입니다")
+
